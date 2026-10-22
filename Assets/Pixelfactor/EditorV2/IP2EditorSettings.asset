@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c12d3279f5ae2f419ae288278d9d753, type: 3}
+  m_Name: IP2EditorSettings
+  m_EditorClassIdentifier: 
+  GameExecutablePath: 
+  DefaultExportPath: 
+  RunScenarioOnPlayMode: 0
+  SectorSize: 16000
+  MaxUnitDistanceFromOriginLowerBound: 6500
+  MaxUnitDistanceFromOriginUpperBound: 7000
+  EmptyScenePrefabPath: Assets/Pixelfactor/EditorV2/Prefabs/ScenarioTemplates/ScenarioTemplate.prefab
+  SectorPrefabPath: Assets/Pixelfactor/EditorV2/Prefabs/Sectors/Sector.prefab
+  SectorNamesPath: Assets/Pixelfactor/EditorV2/Data/SectorNameList1.txt
+  Export_AutosetSectorSeed: 1
+  Export_AutosetUnitSeed: 1
+  Export_AutosetIds: 1
+  Export_AutoAddAmmo: 1
+  Export_RemoveUntargettedWormholes: 1
+  Export_AutoCreateFleets: 1
+  Export_AutoAddIntel: 1
+  UniverseMapScaleFactor: 0.005
+  MinDistanceBetweenSectors: 40000
+  MaxDistanceBetweenSectors: 125000
+  MinAngleBetweenWormholes: 60
+  UnitPrefabsPath: Assets/Pixelfactor/EditorV2/Prefabs/Units
+  CargoClassPrefabsPath: Assets/Pixelfactor/EditorV2/Prefabs/CargoClasses
+  FactionPrefabPath: Assets/Pixelfactor/EditorV2/Prefabs/Factions/Faction.prefab
+  PlayerFactionPrefabPath: Assets/Pixelfactor/EditorV2/Prefabs/Factions/FactionPlayer.prefab
+  NpcPrefabPath: Assets/Pixelfactor/EditorV2/Prefabs/NpcPilots/NpcPilot.prefab
+  FleetPrefabPath: Assets/Pixelfactor/EditorV2/Prefabs/Fleets/Fleet.prefab
+  ComponentPrefabsPath: Assets/Pixelfactor/EditorV2/Prefabs/Components
+  ComponentBayPrefabsPath: Assets/Pixelfactor/EditorV2/Prefabs/ComponentBays
+  AsteroidTypesPath: Assets/Pixelfactor/EditorV2/Prefabs/AsteroidTypes
+  MinPlanetPositionY: -2500
+  MaxPlanetPositionY: 1000
+  MinPlanetDistance: 19800
+  MaxPlanetDistance: 20000
+  MinPlanetRotationX: 5
+  MaxPlanetRotationX: 20
+  MinNumberPlanetSectors: 1
+  PlanetSectorWeighting: 1.2
+  DeepSpaceSectorWeighting: 1.4
+  AsteroidSectorWeighting: 2.6
+  MinNumberAsteroidSectors: 1
+  MinDistanceBetweenAsteroidClusters: 400
+  MinAsteroidClusterRadius: 1500
+  MaxAsteroidClusterRadius: 8000
+  AsteroidClusterRadiusPower: 1.5
+  MinAsteroidClusterCount: 1
+  MaxAsteroidClusterCount: 3
+  ProbabilityOfGeneratingGasCloud: 0.75
+  AsteroidTypeWeightRandomness: 0
